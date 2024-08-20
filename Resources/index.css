@@ -9,6 +9,10 @@ header {
   text-align: center;
   padding: 0px 0px;
   margin: 0px auto;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 header h2 {
   font-size: 36px
@@ -23,7 +27,8 @@ header h2 {
   margin: 0px auto;
   background-blend-mode: overlay;
   background-position: center;
-  height: calc(100vh - 4.75rem)
+  height: 100vh;
+  max-height: 100vw;
 }
 #title-text {
   border: 6px solid #FC5E00;
@@ -88,4 +93,7 @@ p {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 12px;
+}
+#filler {
+  height: 50vh;
 }
