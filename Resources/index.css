@@ -29,6 +29,10 @@ header h2 {
   background-position: center;
   height: 100vh;
   max-height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #title-text {
   border: 6px solid #FC5E00;
@@ -36,6 +40,12 @@ header h2 {
   background-color: #000000BB;
   width: 50%;
   margin: auto;
+  position: absolute;
+}
+#scroll-icon {
+  height: 5rem;
+  margin-bottom: 2rem;
+  margin-top: auto;
 }
 nav {
   background-color: black;
