@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <title>Cooper Dunn Design</title>
+    <meta name="description" content="Hi! I'm Cooper. This site is a collection of designs, programs, and websites I've made. Check it out!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="./Resources/favicon.ico">
     <link href="./Resources/index.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,24 +12,33 @@
   </head>
 <body>
   <header>
-    <nav>
-      <img src="./Resources/Logo-Orange-on-Transparent.png" id="main-logo">
+    <nav class="desktop">
+      <img src="./Resources/logo.svg" id="main-logo" alt="Logo">
       <h2>Cooper Dunn Design</h2>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a>Design</a></li>
-        <li><a>Development</a></li>
+        <li><a href=".">Home</a></li>
+        <li><a href="./design">Design</a></li>
+        <li><a href="./development">Development</a></li>
+      </ul>
+    </nav>
+    <nav class="mobile">
+      <img src="./Resources/logo.svg" id="main-logo" alt="Logo">
+      <h2>CDD</h2>
+      <ul>
+        <li><a href="#"><img src="./Resources/Home.svg" alt="Home"></a></li>
+        <li><a href="./design"><img src="./Resources/Design.svg" alt="Design"></a></li>
+        <li><a href="./development"><img src="./Resources/Development.svg" alt="Development"></a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section id="title">
       <h1 id="title-text">Cooper Dunn Design and Development</h1>
-      <img id="scroll-icon" src="./Resources/scrollIcon.png">
+      <img id="scroll-icon" src="./Resources/scrollIcon.png" alt="Indicator to scroll down">
     </section>
     <section id="portfolios">
       <div class="portfolio" id="design-portfolio">
-          <img class="portfolio-image" src="./Resources/Design.png">
+          <img class="portfolio-image" src="./Resources/Design.webp" alt="Collage of designs">
           <div class="portfolio-text">
             <h2>Design Portfolio</h2>
             <p>A collection of visual designs I have created.</p>
@@ -35,7 +46,7 @@
           </div>
       </div>
       <div class="portfolio" id="development-portfolio">
-        <img class="portfolio-image" src="./Resources/Development.png">
+        <img class="portfolio-image" src="./Resources/Development.webp" alt="VSCode screenshot">
         <h2>Development Portfolio</h2>
         <p>A collection of websites and other things I have programmed.</p>
         <button>Coming Soon</button>
